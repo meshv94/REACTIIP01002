@@ -26,6 +26,7 @@ const Signup = () => {
         // console.log(formData);
         // Add your register logic here
         setUsers([...users , formData])
+        alert("Registration Success!!")
         // navigate('/login')
         
     };
